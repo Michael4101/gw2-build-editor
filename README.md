@@ -4,7 +4,7 @@ This document uses video game terminology which the reader may be unfamiliar wit
 
 ## Introduction 
 
-This ongoing project is a character [build](#build) editor for Guild Wars 2, a popular fantasy MMO where a player's experience is largely guided by the profession they start with and the build they play it with. 
+This ongoing project is a character [build](#build-definition) editor for Guild Wars 2, a popular fantasy MMO where a player's experience is largely guided by the profession they start with and the build they play it with. 
 
 Most committed players will orient their build towards a preferred playstyle, and will attempt to increase the relevant attributes and create a suitable combat profile. For example, builds with an affinity for sustained face-to-face melee combat are frequently characterised by heavy investments in the Might and Toughness attributes, as these will increase the damage dealt and reduce the damage taken by the character respectively. 
 
@@ -43,5 +43,4 @@ Python
 Excel
 
 ## Definitions
-<a name="build-anchor"></a>
-### build
+<a name="build-definition"></a>
