@@ -44,3 +44,12 @@ Excel
 
 ## Definitions
 <a name="build-definition"></a>
+Build<br>
+</br><a name="attribute-definition"></a>
+Attribute<br>
+</br><a name="profession-definition"></a>
+Profession<br>
+</br><a name="trait-definition"></a>
+Trait<br>
+</br><a name="specialisation-definition"></a>
+Specialisation
