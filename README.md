@@ -1,22 +1,22 @@
-#Guild Wars 2 Build Editor 
+# Guild Wars 2 Build Editor 
 
-This document uses video game terminology which the reader may be unfamiliar with. Where such terms appear, 
+This document uses some language in a context unique to Guild Wars 2 and video games more broadly. To aid in reader comprehension, terms used in this way are explained under "Definitions" and can quickly be found by clicking these words the first time they appear in the text.
 
 ## Introduction 
 
-This ongoing project is a character [build](#build-definition) editor for Guild Wars 2, a popular fantasy MMO where a player's experience is largely guided by the profession they start with and the build they play it with. 
+This ongoing project is a character [Build](#build-definition) editor for Guild Wars 2, a popular Fantasy MMO (Massively-Multiplayer Online game) where a player's experience is largely guided by the [Profession](#profession-definition) they start with and the Build they play it with. 
 
-Most committed players will orient their build towards a preferred playstyle, and will attempt to increase the relevant attributes and create a suitable combat profile. For example, builds with an affinity for sustained face-to-face melee combat are frequently characterised by heavy investments in the Might and Toughness attributes, as these will increase the damage dealt and reduce the damage taken by the character respectively. 
+Most committed players will orient their Build towards a preferred [playstyle](#playstyle-definition), and will attempt to increase the relevant [Attributes](#attributes-definition) and create a suitable combat profile. For example, Builds with an affinity for sustained face-to-face melee combat are frequently characterised by heavy investments in the Might and Toughness Attributes, as these will increase the damage dealt and reduce the damage taken by the character respectively. 
 
-This build editor allows users to conveniently arrange and simulate a character build with the desired attribute distribution without committing the time and resources that might otherwise be wasted in-game on trial-and-error build crafting. 
+This Build Editor functions as an advanced calculator which allows users to conveniently arrange and simulate a character Build with the desired Attribute distribution without committing the time and resources that might otherwise be wasted in-game on trial-and-error Build crafting. 
 
 ## Instructions 
 
-The main editor is split into two sheets, "Build & Totals" and "Trait Configuration." The latter becomes relevant only when specialisations and traits have been selected in the former and can significantly changed how these selections affect final attribute totals. 
+The main Editor is split into two sheets, "Build & Totals" and "Trait Configuration." The latter becomes relevant only when [Specialisations](#specialisation-definition) and [Traits](#trait-definition) have been selected in the former and can significantly change how these selections affect final Attribute totals. 
 
 ### Selecting Profession and Attribute Filter 
 
-First, choose the profession this build is for in the top-left corner. This is important, as a character's profession determines what they have access to across several core build components, including specialisations and traits. Selecting a profession limits available options to what is accessible by that profession. 
+First, choose the Profession this build is for in the top-left corner. This is important, as a character's profession determines what they have access to across several core build components, including specialisations and traits. Selecting a profession limits available options to what is accessible by that profession. 
 
  
 
