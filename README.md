@@ -40,16 +40,26 @@ In the Trait Configuration sheet, users can toggle the active states of selected
 
 ## Tools used
 Python
+Thonny
 Excel
 
 ## Definitions
 <a name="build-definition"></a>
-Build<br>
-</br><a name="attribute-definition"></a>
-Attribute<br>
-</br><a name="profession-definition"></a>
-Profession<br>
-</br><a name="trait-definition"></a>
-Trait<br>
-</br><a name="specialisation-definition"></a>
-Specialisation
+### - Build
+The collective term for the Specialisations, Traits, items and upgrades a player chooses for their character.
+<a name="attribute-definition"></a>
+### - Attribute
+The measure of a player character's ability in one facet of combat, such as dealing damage or healing.
+<a name="profession-definition"></a>
+### - Profession
+The core of a character's identity which determines their available Specialisations and Traits.
+<a name="trait-definition"></a>
+### - Trait
+A character enhancement that may be selected by the player or applied automatically.
+<a name="specialisation-definition"></a>
+### - Specialisation
+A Trait line oriented towards a certain playstyle.
+<a name="playstyle-definition"></a>
+### - Playstyle
+A player's preferred approach to a game.
+
