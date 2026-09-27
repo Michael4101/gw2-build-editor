@@ -4,9 +4,9 @@ This document uses some language in a context unique to Guild Wars 2 and video g
 
 ## Introduction 
 
-This ongoing project is a character [Build](#build-definition) editor for Guild Wars 2, a popular Fantasy MMO (Massively-Multiplayer Online game) where a player's experience is largely guided by the [Profession](#profession-definition) they start with and the Build they play it with. 
+This ongoing project is a character [Build](#build-definition) editor for Guild Wars 2, a popular Fantasy MMO (Massively-Multiplayer Online game) where a player's experience is largely guided by the [Profession](#profession-definition) they start with and the Build they create for it.
 
-Most committed players will orient their Build towards a preferred [playstyle](#playstyle-definition), and will attempt to increase the relevant [Attributes](#attribute-definition) and create a suitable combat profile. For example, Builds with an affinity for sustained face-to-face melee combat are frequently characterised by heavy investments in the _Power_ and _Toughness_ Attributes, as these will increase the damage dealt and reduce the damage taken by the character respectively. 
+Most committed players will orient their Build towards a certain [playstyle](#playstyle-definition), and will attempt to increase the relevant [Attributes](#attribute-definition) and create a suitable combat profile. For example, Builds with an affinity for sustained face-to-face melee combat are frequently characterised by heavy investments in the _Power_ and _Toughness_ Attributes, as these will increase the damage dealt and reduce the damage taken by the character respectively. 
 
 This Build Editor functions as an advanced calculator which allows users to conveniently arrange and simulate a character Build with the desired Attribute distribution without committing the time and resources that might otherwise be wasted in-game on trial-and-error Build crafting. 
 
