@@ -79,4 +79,8 @@ A player's preferred approach to a game.
 <a name="boon-definition"></a>
 ### Boon
 Beneficial status effects.
+<a name="stacking-definition"></a>
+### Stacking
+An effect that multiplies based on its number of "stacks."
+
 
