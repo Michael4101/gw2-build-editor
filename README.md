@@ -23,6 +23,7 @@ First, choose the Profession in the top-left corner. This is important, as a cha
 
 Next to the Profession selection field, selecting an Attribute in the Attribute filter box to further constrain available options is recommended to guide and develop a coherent Build identity. For example, filtering for Build components that provide Healing Power is a good choice when creating a group support-oriented Build.
 
+
 ### Creating a Build
 
 Select Build components on the left-side of the screen using the previously described selection fields. If a particular distribution of Attribute bonuses on a component is required, refer to its category's "source" sheet after filtering for one of the desired Attributes - all results that match the criteria will be named in the "Filter" column on the right-side of the table.
@@ -30,6 +31,7 @@ Select Build components on the left-side of the screen using the previously desc
 Component sections are clearly categorised for ease of use and components not yet selected are recognised by the phrase "(Select)" or a blank field.
 
 A red selection field indicates its contents is in conflict with another selection, for example an incompatible Specialisation-Profession matchup. Clear or replace these selections to ensure final Attribute totals are valid.
+
 
 ### Tuning and Final Results
 
