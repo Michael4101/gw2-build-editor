@@ -6,13 +6,26 @@ This document uses some language in a context unique to Guild Wars 2 and video g
 
 This ongoing project is a character [Build](#build-definition) editor for Guild Wars 2, a popular Fantasy MMO (Massively-Multiplayer Online game) where a player's experience is largely guided by the [Profession](#profession-definition) they start with and the Build they play it with. 
 
-Most committed players will orient their Build towards a preferred [playstyle](#playstyle-definition), and will attempt to increase the relevant [Attributes](#attribute-definition) and create a suitable combat profile. For example, Builds with an affinity for sustained face-to-face melee combat are frequently characterised by heavy investments in the Power and Toughness Attributes, as these will increase the damage dealt and reduce the damage taken by the character respectively. 
+Most committed players will orient their Build towards a preferred [playstyle](#playstyle-definition), and will attempt to increase the relevant [Attributes](#attribute-definition) and create a suitable combat profile. For example, Builds with an affinity for sustained face-to-face melee combat are frequently characterised by heavy investments in the _Power_ and _Toughness_ Attributes, as these will increase the damage dealt and reduce the damage taken by the character respectively. 
 
 This Build Editor functions as an advanced calculator which allows users to conveniently arrange and simulate a character Build with the desired Attribute distribution without committing the time and resources that might otherwise be wasted in-game on trial-and-error Build crafting. 
 
-## Instructions 
+## Quick Instructions
 
-The main Editor is split into two sheets, "Build & Totals" and "Trait Configuration." The latter becomes relevant only when [Specialisations](#specialisation-definition) and [Traits](#trait-definition) have been selected in the former and can significantly change how these selections affect final Attribute totals. 
+### 1. Select a Profession
+This determines which Build components are available.
+### 2. Select an Attribute filter (optional)
+This narrows available choices towards a particular Build focus.
+### 3. Create a Build
+Select equipment, [Traits](#traits-definition) and other components from the available drop-down menus.
+### 4. Configure Traits
+Use the _Trait Configuration_ sheet to toggle active states and adjust stack counts where applicable.
+### 5. Review the Results
+Final Attribute totals and derived Attributes 
+
+## Detailed Instructions 
+
+The main Editor is split into two sheets, _Build & Totals_ and _Trait Configuration._ The latter becomes relevant only when [Specialisations](#specialisation-definition) and [Traits](#trait-definition) have been selected in the former and can significantly change how these selections affect final Attribute totals. 
 
 To make a selection, click on any field containing italic text and choose an item from the drop-down list that appears. If the text is missing, these fields can also be identified by their background colour - see the legend on the right-side of the Build & Totals sheet. If the selected item is a Build component, its Attribute bonus (if any) will appear beside it in the appropriate column of the adjoining table.  
 
@@ -39,7 +52,7 @@ In the Trait Configuration sheet, users can toggle the active states of selected
 
 Users can also enable various [Boons](#boon-definition) in a box next to final results. Some of these provide additional bonuses inherently, such as Might increasing Power and Condition Damage, while others require certain active Traits to have an effect on Attributes. For example, the Quickness Boon reduces a character's ability cooldown and does not influence Attributes under normal circumstances, but with the "Imbued Haste" Trait active it also increase the Condition Damage, Healing Power and Vitality Attributes.
 
-Final Attribute results are displayed at the bottom of both sheets. The values of Base Attributes are translated into practical values, known as Derived Attributes, where the relationship can be solved directly. For example, the Base Attribute "Vitality" contributes to the Derived Attribute "Health," the exact amount of damage a character can sustain before being defeated. Calculations that depend on additional combat variables, such as weapon damage, skill coefficients or target defences are currently excluded. This is a limitation that will be addressed in future iterations.
+Final Attribute results are displayed at the bottom of both sheets. The values of base Attributes are translated into practical values, known as _derived Attributes,_ where the relationship can be solved directly. For example, the base Attribute _Vitality_ contributes to the derived Attribute _Health,_ the exact amount of damage a character can sustain before being defeated. Calculations that depend on additional combat variables, such as weapon damage, skill coefficients or target defences are currently excluded. This is a limitation that will be addressed in future iterations.
 
 ## Features 
 
