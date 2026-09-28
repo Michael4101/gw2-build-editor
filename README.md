@@ -1,6 +1,6 @@
 # Guild Wars 2 Build Editor 
 
-This document uses some language in a context unique to Guild Wars 2 and video games more broadly. To aid in reader comprehension, terms used in this way are explained under [Definitions](#definitions) and can quickly be found by clicking these words the first time they appear in the text.
+This document uses some language in a context unique to Guild Wars 2 and video games more broadly. To aid in reader comprehension, terms used in this way are explained under [Definitions](#definitions) and can quickly be found by clicking these words the first time they appear in the text. For more information about this project's architecture and features, see the technical document PDF in this repository.
 
 ## Introduction 
 
@@ -68,9 +68,10 @@ Selected components are highlighted in their source tables.
 Component bonus values are solved in resolution modules according to their bonus type(s) and aggregated in the main interface.
 
 ## Tools used
-Python
-Thonny
-Excel
+Python - Data extraction and processing.
+Excel - Build editor, attribute calculations and user interface.
+Thonny - Python IDE.
+
 
 ## Definitions
 <a name="build-definition"></a>
