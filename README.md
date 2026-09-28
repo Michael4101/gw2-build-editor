@@ -39,7 +39,7 @@ Next to the Profession selection field, selecting an Attribute in the Attribute 
 
 ### Creating a Build
 
-Select Build components on the left-side of the screen using the previously described selection fields. If a particular distribution of Attribute bonuses on a component is required, refer to its category's "source" sheet after filtering for one of the desired Attributes - all results that match the criteria will be named in the "Filter" column on the right-side of the table.
+Select Build components on the left-side of the screen using the previously described selection fields. If a particular distribution of Attribute bonuses on a component is required, refer to its category's _Source_ sheet after filtering for one of the desired Attributes - all results that match the criteria will be named in the _Filter_ column on the right-side of the table.
 
 Component sections are clearly categorised for ease of use and components not yet selected are recognised by the phrase "(Select)" or a blank field.
 
@@ -52,7 +52,7 @@ In the Trait Configuration sheet, users can toggle the active states of selected
 
 Users can also enable various [Boons](#boon-definition) in a box next to final results. Some of these provide additional bonuses inherently, such as Might increasing Power and Condition Damage, while others require certain active Traits to have an effect on Attributes. For example, the Quickness Boon reduces a character's ability cooldown and does not influence Attributes under normal circumstances, but with the "Imbued Haste" Trait active it also increase the Condition Damage, Healing Power and Vitality Attributes.
 
-Final Attribute results are displayed at the bottom of both sheets. The values of base Attributes are translated into practical values, known as _derived Attributes,_ where the relationship can be solved directly. For example, the base Attribute _Vitality_ contributes to the derived Attribute _Health,_ the exact amount of damage a character can sustain before being defeated. For some base Attributes, an additional value representing the remaining points required
+Final Attribute results are displayed at the bottom of both sheets. The values of base Attributes are translated into practical values, known as _derived Attributes,_ where the relationship can be solved directly. For example, the base Attribute _Vitality_ contributes to the derived Attribute _Health,_ the exact amount of damage a character can sustain before being defeated. Some attribute totals are joined by additional values inside parentheses - this represents the remaining amount required in that base Attribute to achieve its associated derived Attribute's [hard cap](#hardcap-definition).
 
 Calculations that depend on additional combat variables, such as weapon damage, skill coefficients or target defences are currently excluded. This is a limitation that will be addressed in future iterations.
 
@@ -91,6 +91,9 @@ A character enhancement that may be selected by the player or applied automatica
 <a name="specialisation-definition"></a>
 ### Specialisation
 A Trait line oriented towards a certain playstyle.
+<a name="hardcap-definition"></a>
+### Hard Cap
+The effective limit of a base Attribute, at which point its derived Attribute is maximised and all further investment is wasted. For example, _Precision_ cannot increase _Critical Chance_ past 100%, so that is point at which Precision's hard cap has been achieved. 
 <a name="playstyle-definition"></a>
 ### Playstyle
 A player's preferred approach to a game.
