@@ -72,9 +72,12 @@ Selected components are highlighted in their source tables.
 Component bonus values are solved in resolution modules according to their bonus type(s) and aggregated in the main interface.
 
 ## Tools used
-Python - Data extraction and processing.
-Excel - Build editor, attribute calculations and user interface.
-Thonny - Python IDE.
+### Python
+Data extraction and processing.
+### Excel
+Build editor, attribute calculations and user interface.
+### Thonny
+Python IDE.
 
 
 ## Definitions
