@@ -76,7 +76,7 @@ Component bonus values are solved in resolution modules according to their bonus
 Data extraction and processing.
 ### Excel
 Build editor, attribute calculations and user interface.
-### Thonny
+### [Thonny](https://thonny.org/)
 Python IDE.
 
 
