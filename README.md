@@ -89,18 +89,6 @@ This Build Editor functions as an advanced calculator which allows users to conv
   </tr>
 </table>
 
-### 1. Select a Profession
-This determines which Build components are available.
-### 2. Select an Attribute filter (optional)
-This narrows available choices towards a particular Build focus.
-### 3. Create a Build
-Select equipment, [Traits](#trait-definition) and other components from the available drop-down menus.
-### 4. Configure Traits
-Use the _Trait Configuration_ sheet to toggle active states and adjust stack counts where applicable.
-### 5. Review the Results
-Final Attribute totals and derived Attributes. 
-
-
 
 ## Detailed Instructions 
 
