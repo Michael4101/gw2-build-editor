@@ -7,12 +7,12 @@ For more information about this project's architecture and features, see the tec
 
 
 <p align="center">
-  <a href="./docs/images/main-ui.png">
-    <img src="/images/editor-main-overview.png" alt="Main Build Editor Layout" width="42%" style="vertical-align: middle;">
+  <a href="./images/main-config-overview.png">
+    <img src="./images/main-config-overview.png" alt="Main Build Editor Layout" width="42%" style="vertical-align: middle;">
   </a>
   &nbsp;&nbsp;
-  <a href="./docs/images/trait-config.png">
-    <img src=".png" alt="Trait Configuration Engine" width="54%" style="vertical-align: middle;">
+  <a href="./images/trait-config-overview.png">
+    <img src="./images/trait-config-overview.png" alt="Trait Configuration Overview" width="54%" style="vertical-align: middle;">
   </a>
 </p>
 
