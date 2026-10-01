@@ -8,12 +8,12 @@ For more information about this project's architecture and features, see the tec
 
 <table border="0">
   <tr>
-    <td align="center" valign="middle" width="45%">
+    <td align="center" valign="middle" width="35%">
       <a href="./images/main-config-overview.png">
         <img src="./images/main-config-overview.png" alt="Main Build Editor Layout" width="100%">
       </a>
     </td>
-    <td align="center" valign="middle" width="55%">
+    <td align="center" valign="middle" width="65%">
       <a href="./images/trait-config-overview.png">
         <img src="./images/trait-config-overview.png" alt="Trait Configuration Layout" width="100%">
       </a>
@@ -31,6 +31,63 @@ Most committed players will orient their Build towards a certain [playstyle](#pl
 This Build Editor functions as an advanced calculator which allows users to conveniently arrange and simulate a character Build with the desired Attribute distribution without committing the time and resources that might otherwise be wasted in-game on trial-and-error Build crafting. 
 
 ## Quick Instructions
+
+<table>
+  <tr>
+    <td>
+      <b>1. Select a Profession</b><br></br>
+      This determines which Build components are available.
+    </td>
+    <td align="center">
+      <a href="./images/profession-select.gif">
+        <img src="./images/profession-select.gif" alt="Selecting a Profession">
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>2. Select an Attribute filter (optional)</b><br></br>
+      This narrows available choices towards a particular Build focus.
+    </td>
+    <td align="center">
+      <a href="./images/attribute-filter-select.gif">
+          <img src="./images/attribute-filter-select.gif" alt="Selecting an Attribute filter">
+      </a>        
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>3.Create a Build</b><br></br>
+      Select equipment, [Traits](#trait-definition) and other components from the available drop-down menus.
+    </td>
+    <td align="center">
+      <a href="./images/build-editing.png">
+          <img src="./images/build-editing.png" alt="Creating a Build">
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>4. Configure Traits</b><br></br>
+      Use the _Trait Configuration_ sheet to toggle active states and adjust stack counts where applicable.
+    </td>
+    <td align="center">
+      <a href="./images/trait-configuration.gif">
+          <img src="./images/trait-configuration.gif" alt="Configuring Trait conditions and stack counts">
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>5. Review the Results</b><br></br>
+      Final Attribute totals and derived Attributes. 
+    </td>
+    <td align="center">
+      <a href="./images/final-totals.png">
+          <img src="./images/final-totals.png" alt="Reviewing final Attribute totals">
+    </td>
+  </tr>
+</table>
 
 ### 1. Select a Profession
 This determines which Build components are available.
