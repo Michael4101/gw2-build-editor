@@ -7,13 +7,12 @@ For more information about this project's architecture and features, see the tec
 
 
 <p align="center">
-  <a href="./images/main-config-overview.png">
-    <img src="./images/main-config-overview.png" alt="Main Build Editor Layout" width="42%" style="vertical-align: middle;">
-  </a>
-  &nbsp;&nbsp;
-  <a href="./images/trait-config-overview.png">
-    <img src="./images/trait-config-overview.png" alt="Trait Configuration Overview" width="54%" style="vertical-align: middle;">
-  </a>
+  <svg width="100%" viewBox="0 0 1000 450" xmlns="http://www.w3.org/2000/svg">
+
+  <image href="./images/main-config-overview.png" x="0" y="25" width="430" />
+
+  <image href="./images/trait-config-overview.png" x="450" y="0" width="550" />
+  </svg>
 </p>
 
     
