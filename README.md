@@ -1,9 +1,23 @@
+
 # Guild Wars 2 Build Editor 
 
 This document uses some language in a context unique to Guild Wars 2 and video games more broadly. To aid in reader comprehension, terms used in this way are explained under [Definitions](#definitions) and can quickly be found by clicking these words the first time they appear in the text.
 
 For more information about this project's architecture and features, see the technical document PDF in this repository.
 
+<table border="0">
+  <tr>
+    <td align="center" valign="middle">
+      <p align="center">
+        <img src="/images/editor-main-overview.png" alt="Main Build Editor Interface" width="60%">
+      </p>
+    </td>
+    <td align="center" valign="middle">
+        <img src="/images/editor-traits-overview.png" alt="Traits Configuration Interface" width="60%">
+    </td>
+  </tr>
+</table>
+    
 ## Introduction 
 
 This ongoing project is a character [Build](#build-definition) editor for Guild Wars 2, a popular Fantasy MMO (Massively-Multiplayer Online game) where a player's experience is largely guided by the [Profession](#profession-definition) they start with and the Build they create for it.
@@ -106,6 +120,7 @@ A player's preferred approach to a game.
 ### Boon
 Beneficial status effects.
 <a name="stacking-definition"></a>
+</table>
 ### Stacking
 An effect that multiplies based on its number of "stacks."
 
