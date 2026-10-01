@@ -6,14 +6,20 @@ This document uses some language in a context unique to Guild Wars 2 and video g
 For more information about this project's architecture and features, see the technical document PDF in this repository.
 
 
-<p align="center">
-  <svg width="100%" viewBox="0 0 1000 450" xmlns="http://www.w3.org/2000/svg">
-
-  <image href="./images/main-config-overview.png" x="0" y="25" width="430" />
-
-  <image href="./images/trait-config-overview.png" x="450" y="0" width="550" />
-  </svg>
-</p>
+<table border="0">
+  <tr>
+    <td align="center" valign="middle" width="45%">
+      <a href="./images/main-config-overview.png">
+        <img src="./images/main-config-overview.png" alt="Main Build Editor Layout" width="100%">
+      </a>
+    </td>
+    <td align="center" valign="middle" width="55%">
+      <a href="./images/trait-config-overview.png">
+        <img src="./images/trait-config-overview.png" alt="Trait Configuration Layout" width="100%">
+      </a>
+    </td>
+  </tr>
+</table>
 
     
 ## Introduction 
