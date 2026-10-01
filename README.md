@@ -7,13 +7,13 @@ For more information about this project's architecture and features, see the tec
 
 <table border="0">
   <tr>
-    <td align="center" valign="middle">
+    <td align="center" valign="middle" width="50%">
       <p align="center">
         <img src="/images/editor-main-overview.png" alt="Main Build Editor Interface" width="60%">
       </p>
     </td>
-    <td align="center" valign="middle">
-        <img src="/images/editor-traits-overview.png" alt="Traits Configuration Interface" width="60%">
+    <td align="center" valign="middle" width="100%">
+        <img src="/images/editor-traits-overview.png" alt="Traits Configuration Interface" width="100%">
     </td>
   </tr>
 </table>
@@ -38,6 +38,8 @@ Select equipment, [Traits](#trait-definition) and other components from the avai
 Use the _Trait Configuration_ sheet to toggle active states and adjust stack counts where applicable.
 ### 5. Review the Results
 Final Attribute totals and derived Attributes. 
+
+
 
 ## Detailed Instructions 
 
