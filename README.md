@@ -3,8 +3,9 @@
 
 This document uses some language in a context unique to Guild Wars 2 and video games more broadly. To aid in reader comprehension, terms used in this way are explained under [Definitions](#definitions) and can quickly be found by clicking these words the first time they appear in the text.
 
-For more information about this project's architecture and features, see the technical document PDF in this repository.
+For more information about this project's architecture and features, view the technical document linked below:<br></br>
 
+[View Technical Document](./gw2-build-editor-technical-document.pdf)<br></br>
 
 <table border="0">
   <tr>
@@ -127,13 +128,13 @@ Calculations that depend on additional combat variables, such as weapon damage, 
 
 <table>
   <tr>
-    <td>
+    <td width="50%">
       <b>Streamlined UX</b><br></br>
       Attribute bonuses and totals are calculated automatically with minimal user input. The interface is clean and easy to read.
     </td>
-    <td align="center" valign="middle">
-      <a href="./images/">
-        <img src="./images/" alt="">
+    <td align="center" valign="middle" width="50%">
+      <a href="./images/ux-example.gif">
+        <img src="./images/ux-example.gif" alt="Dynamic dropdown lists and direct and automatic selection feedback">
       </a>
     </td>
   </tr>
@@ -143,8 +144,8 @@ Calculations that depend on additional combat variables, such as weapon damage, 
       Available options are filtered to be compatible with parent field selections, including character Profession and bonus Attribute filtering.
     </td>
     <td align="center" valign="middle">
-      <a href="./images/">
-        <img src="/.images/" alt="">
+      <a href="./images/contextual-filtering-example.gif">
+        <img src="./images/contextual-filtering-example.gif" alt="Available Specialisations update when selecting a new Profession">
       </a>
     </td>
   </tr>
@@ -154,8 +155,8 @@ Calculations that depend on additional combat variables, such as weapon damage, 
       Fields containing selections which are incompatible or may require further attention are highlighted.
     </td>
     <td align="center" valign="middle">
-      <a href="./images/">
-        <img src="" alt="">
+      <a href="./images/user-alerts-example.gif">
+        <img src="./images/user-alerts-example.gif" alt="One-handed and two-handed weapons selected together are flagged as incompatible">
       </a>
     </td>
   </tr>
@@ -165,8 +166,8 @@ Calculations that depend on additional combat variables, such as weapon damage, 
       Selected components are highlighted in their source tables.
     </td>
     <td align="center" valign="middle">
-      <a href="./images/">
-        <img src="" alt="">
+      <a href="./images/traceability-example.png">
+        <img src="./images/traceability-example.png" alt="Selected Runes are highlighted in the Runes source table">
       </a>
     </td>
   </tr>
@@ -176,23 +177,13 @@ Calculations that depend on additional combat variables, such as weapon damage, 
       Component bonus values are solved in resolution modules according to their bonus type(s) and aggregated in the main interface.
     </td>
     <td align="center" valign="middle">
-      <a href="./images/">
-        <img src="" alt="">
+      <a href="./images/bonus-logic-example.png">
+        <img src="./images/bonus-logic-example.png" alt="The Traits resolution module accounts for Trait tiers, user configuration and multiple interacting bonus types">
       </a>
     </td>
   </tr>
 </table>
 
-### Straightforward UI
-Main Build component selections, corresponding Attribute bonus values and final Attribute totals are consolidated in one sheet.
-### Contextual UI Filtering
-Available options are filtered to be compatible with parent field selections, including character Profession and bonus Attribute filtering.
-### User Alerts
-Fields containing selections which are incompatible or may require further attention are highlighted.
-### Traceability
-Selected components are highlighted in their source tables.
-### Complex Bonus Resolution
-Component bonus values are solved in resolution modules according to their bonus type(s) and aggregated in the main interface.
 
 ## Tools used
 ### Python
