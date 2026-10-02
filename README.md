@@ -171,7 +171,6 @@ A player's preferred approach to a game.
 ### Boon
 Beneficial status effects.
 <a name="stacking-definition"></a>
-</table>
 ### Stacking
 An effect that multiplies based on its number of "stacks."
 
