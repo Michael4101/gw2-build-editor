@@ -38,7 +38,7 @@ This Build Editor functions as an advanced calculator which allows users to conv
       <b>1. Select a Profession</b><br></br>
       This determines which Build components are available.
     </td>
-    <td align="center">
+    <td align="center" valign="middle">
       <a href="./images/profession-select.gif">
         <img src="./images/profession-select.gif" alt="Selecting a Profession">
       </a>
@@ -49,7 +49,7 @@ This Build Editor functions as an advanced calculator which allows users to conv
       <b>2. Select an Attribute filter (optional)</b><br></br>
       This narrows available choices towards a particular Build focus.
     </td>
-    <td align="center">
+    <td align="center" valign="middle">
       <a href="./images/attribute-filter-select.gif">
           <img src="./images/attribute-filter-select.gif" alt="Selecting an Attribute filter">
       </a>        
@@ -60,7 +60,7 @@ This Build Editor functions as an advanced calculator which allows users to conv
       <b>3.Create a Build</b><br></br>
       Select equipment, [Traits](#trait-definition) and other components from the available drop-down menus.
     </td>
-    <td align="center">
+    <td align="center" valign="middle">
       <a href="./images/build-editing.png">
           <img src="./images/build-editing.png" alt="Creating a Build">
       </a>
@@ -71,7 +71,7 @@ This Build Editor functions as an advanced calculator which allows users to conv
       <b>4. Configure Traits</b><br></br>
       Use the _Trait Configuration_ sheet to toggle active states and adjust stack counts where applicable.
     </td>
-    <td align="center">
+    <td align="center" valign="middle">
       <a href="./images/trait-configuration.gif">
           <img src="./images/trait-configuration.gif" alt="Configuring Trait conditions and stack counts">
       </a>
@@ -82,7 +82,7 @@ This Build Editor functions as an advanced calculator which allows users to conv
       <b>5. Review the Results</b><br></br>
       Final Attribute totals and derived Attributes. 
     </td>
-    <td align="center">
+    <td align="center" valign="middle">
       <a href="./images/final-totals.png">
           <img src="./images/final-totals.png" alt="Reviewing final Attribute totals">
     </td>
@@ -119,18 +119,76 @@ In the Trait Configuration sheet, users can toggle the active states of selected
 
 Users can also enable various [Boons](#boon-definition) in a box next to final results. Some of these provide additional bonuses inherently, such as Might increasing Power and Condition Damage, while others require certain active Traits to have an effect on Attributes. For example, the Quickness Boon reduces a character's ability cooldown and does not influence Attributes under normal circumstances, but with the "Imbued Haste" Trait active it also increase the Condition Damage, Healing Power and Vitality Attributes.
 
-Final Attribute results are displayed at the bottom of both sheets. The values of base Attributes are translated into practical values, known as _derived Attributes,_ where the relationship can be solved directly. For example, the base Attribute _Vitality_ contributes to the derived Attribute _Health,_ the exact amount of damage a character can sustain before being defeated. Some attribute totals are joined by additional values inside parentheses - this represents the remaining amount required in that base Attribute to achieve its associated derived Attribute's [hard cap](#hardcap-definition).
+Final Attribute results are displayed at the bottom of both sheets. The values of base Attributes are translated into practical values, known as _derived Attributes,_ where the relationship can be solved directly. For example, the base Attribute _Vitality_ contributes to the derived Attribute _Health,_ the exact amount of damage a character can sustain before being defeated. Some Attribute totals are joined by additional values inside parentheses - this represents the remaining amount required in that base Attribute to achieve its associated derived Attribute's [hard cap](#hardcap-definition).
 
 Calculations that depend on additional combat variables, such as weapon damage, skill coefficients or target defences are currently excluded. This is a limitation that will be addressed in future iterations.
 
 ## Features 
 
+<table>
+  <tr>
+    <td>
+      <b>Streamlined UX</b><br></br>
+      Attribute bonuses and totals are calculated automatically with minimal user input. The interface is clean and easy to read.
+    </td>
+    <td align="center" valign="middle">
+      <a href="./images/">
+        <img src="./images/" alt="">
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Contextual UI Filtering</b><br></br>
+      Available options are filtered to be compatible with parent field selections, including character Profession and bonus Attribute filtering.
+    </td>
+    <td align="center" valign="middle">
+      <a href="./images/">
+        <img src="/.images/" alt="">
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>User Alerts</b><br></br>
+      Fields containing selections which are incompatible or may require further attention are highlighted.
+    </td>
+    <td align="center" valign="middle">
+      <a href="./images/">
+        <img src="" alt="">
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Traceability</b><br></br>
+      Selected components are highlighted in their source tables.
+    </td>
+    <td align="center" valign="middle">
+      <a href="./images/">
+        <img src="" alt="">
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Complex Bonus Resolution</b><br></br>
+      Component bonus values are solved in resolution modules according to their bonus type(s) and aggregated in the main interface.
+    </td>
+    <td align="center" valign="middle">
+      <a href="./images/">
+        <img src="" alt="">
+      </a>
+    </td>
+  </tr>
+</table>
+
 ### Straightforward UI
-Main build component selections, corresponding attribute bonus values and final attribute totals are consolidated in one sheet.
-### Additional Trait Tuning
-Toggle active states and configure stacking bonuses.
+Main Build component selections, corresponding Attribute bonus values and final Attribute totals are consolidated in one sheet.
 ### Contextual UI Filtering
-Available options are filtered to be compatible with parent field selections, including character profession bonus attribute filtering.
+Available options are filtered to be compatible with parent field selections, including character Profession and bonus Attribute filtering.
+### User Alerts
+Fields containing selections which are incompatible or may require further attention are highlighted.
 ### Traceability
 Selected components are highlighted in their source tables.
 ### Complex Bonus Resolution
@@ -140,7 +198,7 @@ Component bonus values are solved in resolution modules according to their bonus
 ### Python
 Data extraction and processing.
 ### Excel
-Build editor, attribute calculations and user interface.
+Build editor, Attribute calculations and user interface.
 ### [Thonny](https://thonny.org/)
 Python IDE.
 
